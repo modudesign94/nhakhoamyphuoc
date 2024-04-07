@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 10px 20px
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #056CB6
+}
+.navbar .navbar-nav .nav-item .dropdown-menu {
+  background-color: #056CB6;
+  padding-bottom: 0;
+  padding-top: 0;
+  border-radius: 0
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li {
+  border-bottom: 1px solid #C9C9C9
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item {
+  color: white
+}
+.navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-item:hover {
+  background-color: #FFC113
+}
+
+#baiviet .quote {
+  border-left: 2px solid #9C9C9C;
+  padding-left: 20px
+}
+#baiviet .col-lg-4 .search-box .search-box_input{
+  width: 100%;
+}
+#baiviet .col-lg-4 .search-box {
+  width: 100%;
+  position: relative;
+}
+#baiviet .col-lg-4 .search-box .search-box_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #036CB5
+	  }
+
+#hotro p i {
+  color: #FFC113
+}
+#hotro form {
+  display: flex;
+}
+#hotro form input {
+  margin-bottom: 5px
+}
+#hotro button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}
+
+#hinhkhachhang .col-lg-6 .hinhkhach {
+  position: relative
+}
+#hinhkhachhang .col-lg-6 .befor {
+  background-color: #B7B7B7;
+  width: 50px;
+  text-align: center;
+  height: 25px;
+  line-height: 25px;
+  color: #565656;
+  top: 10px
+}
+#hinhkhachhang .col-lg-6 .beafter {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+.hinhminhhoa {
+  width: 100%;
+  min-height: 100px
+}
+
+#baiviet .col-lg-4 .search-box .search-box_btn i {
+  color: white;
+}
+#baiviet .col-lg-4 .search-box .search-box_btn i:hover {
+  color: #FFC113;
+}
+#baiviet .col-lg-4 .navbar-nav .nav-item .nav-link i {
+  color: #C2282B
+}
+#baiviet .col-lg-4 .navbar-nav .nav-item .nav-link:hover {
+  color: #FFC113
+}
+
+#baiviet button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}

@@ -1,0 +1,227 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+  width: 100%;
+  height: 60px;
+  line-height: 50px;
+  padding: 5px 20px;
+}
+.header a {
+  color: white
+}
+.header a:hover {
+  color: #FFC113
+}
+
+.gach-chan {
+  border-bottom: 2px solid #FFC113;
+  padding-top: 3px
+}
+
+main {
+  width: 100%;
+  min-height: 500px
+}
+
+#dichvu a {
+  text-decoration: none;
+  color: #565656;
+}
+#dichvu a:hover {
+  color: #FFC113
+}
+
+footer {
+  width: 100%;
+  min-height: 300px
+}
+
+footer .p-3 .icon-brand a {
+  color: white
+}
+
+footer .p-3 p i {
+  color: #FFC113
+}
+
+footer .navbar-nav .nav-item .nav-link:hover {
+  color: #FFC113
+}
+
+footer .p-3 button:hover {
+  background-color: #003287;
+}
+
+.footer2 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+
+#about button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}
+
+#why {
+  width: 100%;
+  min-height: 400px;
+  background-image: url("../images/why.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  margin-top: 10px
+}
+
+#thanhcong .col-lg-6 .hinhkhach {
+  position: relative
+}
+
+#thanhcong .col-lg-6 .befor {
+text-align: center;
+  height: 25px;
+  line-height: 25px;
+  color: #565656;
+  top: 10px;
+  background-color: #B7B7B7;
+  width: 50px;
+}
+
+#thanhcong .col-lg-6 .beafter {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+}
+.m-20 {
+  maggin: 0 20 0 0
+}
+#thanhcong button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}
+#feedback {
+  width: 100%;
+  min-height: 300px
+}
+#feedback .noidung img {
+  width: 100px;
+  height: 100px
+}
+#feedback .noidung {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+#news a {
+  text-decoration: none;
+  color: #565656;
+}
+#news a:hover {
+  color: #FFC113
+}
+.bottom-bar {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+}
+
+#news row .col {
+  display: flex
+}
+
+#lichhen {
+  width: 100%;
+  min-height: 250px
+}
+
+#lichhen button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}
+
+#page-header {
+  background-image: url("../images/pageheader.png");
+  width: 100%;
+  min-height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  display: flex; flex-direction: column; justify-content: center
+}
+
+#page-header button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid
+}
+
+#doingu {
+  width: 100%;
+  min-height: 400px
+}
+
+#doingu img {
+  width: 130px;
+  height: 130px
+}
+
+
+#news .col-lg-4 .search-box .search-box_input{
+	width: 100%;
+}
+#news .col-lg-4 .search-box{
+  width: 100%;
+  position: relative;
+}
+#news .col-lg-4 .search-box .search-box_btn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #036CB5
+}
+#news .col-lg-4 .search-box .search-box_btn i {
+  color: white;
+}
+#news .col-lg-4 .search-box .search-box_btn i:hover {
+  color: #FFC113;
+}
+
+#news button:hover {
+  background-color: #FFC113;
+  border: 1px #FFC113 solid	  	  
+}
+
+.box-xam{
+	background-color: #313131;
+	border-radius: 5px;
+	width: 70px;
+	height: 40px;
+}
+
+.box-xam-text{
+	width: 40px;
+	height: 40px;
+	border-radius: 5px;
+	color: #E5E5E5;
+	text-align: center;
+	line-height: 40px;
+	background-color: #313131;
+	
+}
+
+#news h4 a{ color: black;text-decoration: none }
+#news h4 a:hover{ color: #FFC113 }
+#news .baivietlienquan .bai1 a:hover{ color: #FFC113 }
+#news .baivietlienquan .bai1 a{ text-decoration: none; color:#131313 }
+#news .col-lg-4 .navbar-nav .nav-item .nav-link i { color: #C2282B }
+#news .col-lg-4 .navbar-nav .nav-item .nav-link:hover { color: #FFC113 }
